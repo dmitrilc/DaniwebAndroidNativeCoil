@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Daniweb Android Native Coil</string>
     <string name="load_image">Random Image</string>
+    <string name="circle">https://github.com/dmitrilc/DaniwebAndroidNativeCoil/raw/main/app/src/main/res/drawable/circle.png</string>
+    <string name="rect">https://github.com/dmitrilc/DaniwebAndroidNativeCoil/raw/main/app/src/main/res/drawable/rect.png</string>
+    <string name="triangle">https://github.com/dmitrilc/DaniwebAndroidNativeCoil/raw/main/app/src/main/res/drawable/triangle.png</string>
 </resources>
