@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import coil.Coil
-import coil.ImageLoader
 import coil.imageLoader
 import coil.load
+import coil.request.ImageRequest
 import coil.util.CoilUtils
 import okhttp3.OkHttpClient
 import kotlin.random.Random
@@ -27,6 +27,16 @@ class MainActivity : AppCompatActivity() {
                 2 -> imageView.load(getString(R.string.circle))
             }
         }
+
+        /** Long way to load an image
+        val imageLoader = applicationContext.imageLoader
+        val request = ImageRequest.Builder(applicationContext)
+            .data(getString(R.string.rect))
+            .target(imageView)
+            .build()
+
+        imageLoader.enqueue(request)
+        **/
     }
 
 }
